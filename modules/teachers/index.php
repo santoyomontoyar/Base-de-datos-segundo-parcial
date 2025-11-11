@@ -23,9 +23,9 @@
           <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
             <ul class="nav flex-column">
               <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center gap-2 active bg-primary text-white rounded-3 mx-2" aria-current="page" href="#"> 
+                  <a class="nav-link d-flex align-items-center gap-2 active bg-primary text-white rounded-3 mx-2" aria-current="page" href="index.php"> 
                     <i class="bi bi-people-fill"></i>
-                    Docentes
+                    Usuarios
                   </a> 
               </li>
             </ul>
