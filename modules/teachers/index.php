@@ -54,7 +54,7 @@
             </thead>
             <tbody>
               <?php
-              require_once '../../lib/connection.php';
+              require_once '../../lib/config.php';
               $query = "SELECT * FROM teachers";
               $result = $connection->query($query);
               if ($result->num_rows == 0) {
@@ -71,7 +71,6 @@
                   <td><?php echo $row->id; ?></td>
                   <td><?php echo $row->name; ?></td>
                   <td><?php echo $row->email; ?></td>
-                  <td><?php echo $row->password; ?></td>
                   <td>
                     <a href="update_form.php?id=<?php echo $row->id; ?>" class="btn btn-sm btn-info me-1">
                       <i class="bi bi-pencil-fill"></i>
