@@ -36,7 +36,7 @@
         <div class="d-flex justify-content-between align-items-center pt-4 pb-3 mb-3 border-bottom">
           <h1 class="h2 text-primary fw-bold">
             Docentes
-            <a href="insert.html" class="btn btn-warning ms-2">
+            <a href="insert.html" class="btn btn-primary ms-2">
               <i class="bi bi-plus-square-fill"></i>
             </a>
           </h1>
