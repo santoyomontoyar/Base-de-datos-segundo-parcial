@@ -33,7 +33,7 @@ $record = $result->fetch_object();
                     
                     <a href="./index.php" class="btn btn-lg btn-secondary col-4">No, regresar</a>
 
-                    <form action="#" method="post" class="col-4 gap-4">
+                    <form action="delete.php" method="post" class="col-4 gap-4">
                         <input type="hidden" name="id" value="<?php echo $record->id; ?>">
                         <button type="submit" class="btn btn-lg btn-danger w-100">Sí, eliminar</button>
                     </form>
