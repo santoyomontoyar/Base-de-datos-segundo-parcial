@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Astro v5.13.2">
+    <title>Signin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .form-signin {
+            max-width: 330px;
+            padding: 1rem;
+        }
+
+        .form-signin .form-floating:focus-within {
+            z-index: 2;
+        }
+
+        .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    </style>
+</head>
+
+<body class="d-flex align-items-center py-4 bg-body-tertiary">
+    <main class="form-signin w-100 m-auto">
+        <form method="POST" action="lib/login.php">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <div class="form-floating"> <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="emailLogin"> <label for="floatingInput">Email address</label> </div>
+            <div class="form-floating"> <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="passwordLogin"> <label for="floatingPassword">Password</label> </div>
+            <div class="form-check text-start my-3"> <input class="form-check-input" type="checkbox" value="remember-me" id="checkDefault"> <label class="form-check-label" for="checkDefault">
+                    Remember me
+                </label> </div> <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2025</p>
+        </form>
+    </main>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" class="astro-vvvwv3sm"></script>
+</body>
+</html>
